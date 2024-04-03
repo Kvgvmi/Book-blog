@@ -17,9 +17,6 @@ hr {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.form-control::-webkit-input-placeholder { color: #999; }  
-.form-control:-ms-input-placeholder { color: #999; }  
-.form-control::placeholder { color: #999; }
 
 .tm-header {
     background-color: #C77DFF;
@@ -52,19 +49,6 @@ hr {
     margin-top: 50px;
     margin-bottom: 115px;
 }
-
-.tm-site-logo {
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-    background-color: white;    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.tm-site-logo i { color: #C77DFF; }
-
 .tm-main {
     margin-left: 400px;
     padding: 80px 100px 25px;
@@ -129,23 +113,6 @@ ul {
 
 .tm-nav { margin-left: -30px; }
 
-.tm-social-link {
-    display: inline-block;
-    background-color: white;    
-    font-size: 1.4rem;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    padding-top: 8px; 
-    margin-right: 15px;   
-    margin-bottom: 15px;
-}
-
-.tm-social-icon { 
-    color: #C77DFF;    
-    transition: all 0.3s ease;
-}
-
 .tm-search-form {
     display: flex;
     align-items: center;
@@ -163,19 +130,14 @@ ul {
 }
 
 .tm-search-button {
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     border: none;
     background-color: #C77DFF;
     transition: all 0.3s ease;
 }
 
 .tm-search-button:hover { background-color: #09b6b6; }
-
-.tm-search-icon {
-    color: white;
-    font-size: 1.3rem;
-}
 
 .tm-post-link {
     display: block;
@@ -308,12 +270,6 @@ ul {
 
 /* ----------------Single Post page------------------------------------------ */
 hr.tm-hr-primary { border-top: 5px solid #C77DFF; }
-
-video {
-    width: 100%;
-    height: auto;
-}
-
 .tm-comment {
     display: flex;
     align-items: flex-start;
@@ -382,26 +338,6 @@ a:hover figcaption { color: #C77DFF; }
     height:477px;
     width:100%;
 }
-
-.tm-social-links li { 
-    list-style: none; 
-    display: inline-block;
-}
-
-.tm-social-links li a {
-    display: block;
-    color: white;
-    background-color: #C77DFF;
-    width: 45px;
-    height: 45px;    
-    margin-right: 15px;    
-}
-
-.tm-social-links li a i { transition: all 0.3s ease; }
-.tm-social-links li a:hover i.fa-facebook { color: #3b5998; }
-.tm-social-links li a:hover i.fa-twitter { color: #00acee; }
-.tm-social-links li a:hover i.fa-youtube { color: #c4302b; }
-.tm-social-links li a:hover i.fa-instagram { color: #3f729b; }
 
 .tm-contact-right { padding-left: 55px; }
 .tm-contact-form { max-width: 488px; }
